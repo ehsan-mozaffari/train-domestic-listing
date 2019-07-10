@@ -1,2 +1,32 @@
 *.class
 *.log
+.idea
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+
+# IntelliJ
+out/
+*.iml
+.idea/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# CMake
+cmake-build-*/
+
+
